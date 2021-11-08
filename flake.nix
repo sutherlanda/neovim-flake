@@ -31,7 +31,6 @@
     nvim-lightbulb = { url = "github:kosayoda/nvim-lightbulb"; flake = false; };
     nvim-treesitter = { url = "github:nvim-treesitter/nvim-treesitter"; flake = false;};
     nvim-treesitter-context = { url = "github:romgrk/nvim-treesitter-context"; flake = false;};
-    rnix-lsp.url = github:nix-community/rnix-lsp;
     editorconfig-vim = { url = "github:editorconfig/editorconfig-vim"; flake = false; };
     indentline = { url = "github:Yggdroot/indentLine"; flake = false; };
     indent-blankline-nvim = { url = "github:lukas-reineke/indent-blankline.nvim"; flake = false; };
