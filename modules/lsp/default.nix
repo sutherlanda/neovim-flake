@@ -240,13 +240,6 @@ in {
 
       '' else ""}
 
-      ${if cfg.nix then ''
-        lspconfig.rnix.setup{
-          on_attach=require'completion'.on_attach;
-          cmd = {"${pkgs.rnix-lsp}/bin/rnix-lsp"}
-        }
-      '' else ""}
-
       ${if cfg.ruby then ''
         lspconfig.solargraph.setup{
           on_attach=require'completion'.on_attach;
