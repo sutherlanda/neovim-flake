@@ -83,7 +83,6 @@
             pluginOverlay
             (final: prev: {
               neovim-nightly = neovim.defaultPackage.${system};
-              rnix-lsp = inputs.rnix-lsp.defaultPackage.${system};
             })
           ];
         };
