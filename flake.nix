@@ -109,7 +109,7 @@
         overlay = (self: super: {
           inherit neovimBuilder;
           neovimWT = packages.neovimWT;
-	  neovimPlugins = pkgs.neovimPlugins;
+          neovimPlugins = pkgs.neovimPlugins;
         });
 
         packages.neovimWT = neovimBuilder {
@@ -148,7 +148,6 @@
             vim.editor.indentGuide = true;
             vim.editor.underlineCurrentWord = true;
             vim.test.enable = true;
-
           };
         };
       });
